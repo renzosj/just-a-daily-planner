@@ -33,16 +33,96 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+
+    <main class="container-fluid row justify-content-center h-auto bg-dark background-effect">
       <!-- Timeblocks go here -->
-    </div>
+      <section id="timeBlocks" class="list-group p-2 col-10 bg-light">
+          <a href="#hour-9-act" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center fs-4" aria-current="true"
+            role="button" data-momentjs="+9" aria-expanded="false" aria-controls="hour-9-act"  data-bs-toggle="collapse"
+            > 9 am <p class="mt-2 text-9  col-6 fs-3"></p> <button class="deleteBtn bg-secondary-subtle fs-5">❌</button>
+          </a> 
+          <div id="hour-9-act" class="collapse justify-content-between">
+            <input class="text-black col-8 fs-4" placeholder="Add activity here..."><button class="saveBtn fs-4 h-auto w-25">Save</button>
+          </div>
+          <a href="#hour-10-act" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center fs-4" aria-current="true"
+            role="button" data-momentjs="+10" aria-expanded="false" aria-controls="hour-10-act"  data-bs-toggle="collapse"
+            >10 am <p class="mt-2 text-9  col-6 fs-3"></p> <button class="deleteBtn bg-secondary-subtle fs-5">❌</button>
+          </a> 
+          <div id="hour-10-act" class="collapse justify-content-between">
+            <input class="text-black col-8 fs-4" placeholder="Add activity here..."><button class="saveBtn fs-4 h-auto w-25">Save</button>
+          </div>
+          <a href="#hour-11-act" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center fs-4" aria-current="true"
+            role="button" data-momentjs="+11" aria-expanded="false" aria-controls="hour-11-act"  data-bs-toggle="collapse"
+            >11 am <p class="mt-2 text-9  col-6 fs-3"></p> <button class="deleteBtn bg-secondary-subtle fs-5">❌</button>
+          </a> 
+          <div id="hour-11-act" class="collapse justify-content-between">
+            <input class="text-black col-8 fs-4" placeholder="Add activity here..."><button class="saveBtn fs-4 h-auto w-25">Save</button>
+          </div>
+          <a href="#hour-12-act" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center fs-4" aria-current="true"
+            role="button" data-momentjs="+12" aria-expanded="false" aria-controls="hour-12-act"  data-bs-toggle="collapse"
+            >12 pm <p class="mt-2 text-9  col-6 fs-3"></p> <button class="deleteBtn bg-secondary-subtle fs-5">❌</button>
+          </a> 
+          <div id="hour-12-act" class="collapse justify-content-between">
+            <input class="text-black col-8 fs-4" placeholder="Add activity here..."><button class="saveBtn fs-4 h-auto w-25">Save</button>
+          </div>
+
+          <a href="#hour-13-act" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center fs-4" aria-current="true"
+            role="button" data-momentjs="+13" aria-expanded="false" aria-controls="hour-13-act"  data-bs-toggle="collapse"
+            > 1 pm <p class="mt-2 text-9  col-6 fs-3"></p> <button class="deleteBtn bg-secondary-subtle fs-5">❌</button>
+          </a> 
+          <div id="hour-13-act" class="collapse justify-content-between">
+            <input class="text-black col-8 fs-4" placeholder="Add activity here..."><button class="saveBtn fs-4 h-auto w-25">Save</button>
+          </div>
+
+          <a href="#hour-14-act" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center fs-4" aria-current="true"
+            role="button" data-momentjs="+14" aria-expanded="false" aria-controls="hour-14-act"  data-bs-toggle="collapse"
+            > 2 pm <p class="mt-2 text-9  col-6 fs-3"></p> <button class="deleteBtn bg-secondary-subtle fs-5">❌</button>
+          </a> 
+          <div id="hour-14-act" class="collapse justify-content-between">
+            <input class="text-black col-8 fs-4" placeholder="Add activity here..."><button class="saveBtn fs-4 h-auto w-25">Save</button>
+          </div>
+
+          <a href="#hour-15-act" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center fs-4" aria-current="true"
+            role="button" data-momentjs="+15" aria-expanded="false" aria-controls="hour-15-act"  data-bs-toggle="collapse"
+            > 3 pm <p class="mt-2 text-9  col-6 fs-3"></p> <button class="deleteBtn bg-secondary-subtle fs-5">❌</button>
+          </a> 
+          <div id="hour-15-act" class="collapse justify-content-between">
+            <input class="text-black col-8 fs-4" placeholder="Add activity here..."><button class="saveBtn fs-4 h-auto w-25">Save</button>
+          </div>
+
+          <a href="#hour-16-act" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center fs-4" aria-current="true"
+            role="button" data-momentjs="+16" aria-expanded="false" aria-controls="hour-16-act"  data-bs-toggle="collapse"
+            > 4 pm <p class="mt-2 text-9  col-6 fs-3"></p> <button class="deleteBtn bg-secondary-subtle fs-5">❌</button>
+          </a> 
+          <div id="hour-16-act" class="collapse justify-content-between">
+            <input class="text-black col-8 fs-4" placeholder="Add activity here..."><button class="saveBtn fs-4 h-auto w-25">Save</button>
+          </div>
+
+          <a href="#hour-17-act" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center fs-4" aria-current="true"
+            role="button" data-momentjs="+17" aria-expanded="false" aria-controls="hour-17-act"  data-bs-toggle="collapse"
+            > 5 pm <p class="mt-2 text-9  col-6 fs-3"></p> <button class="deleteBtn bg-secondary-subtle fs-5">❌</button>
+          </a> 
+          <div id="hour-17-act" class="collapse justify-content-between">
+            <input class="text-black col-8 fs-4" placeholder="Add activity here..."><button class="saveBtn fs-4 h-auto w-25">Save</button>
+          </div>
+
+          <a href="#hour-18-act" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center fs-4" aria-current="true"
+            role="button" data-momentjs="+18" aria-expanded="false" aria-controls="hour-18-act"  data-bs-toggle="collapse"
+            > 6 pm <p class="mt-2 text-9  col-6 fs-3"></p> <button class="deleteBtn bg-secondary-subtle fs-5">❌</button>
+          </a> 
+          <div id="hour-18-act" class="collapse justify-content-between">
+            <input class="text-black col-8 fs-4" placeholder="Add activity here..."><button class="saveBtn fs-4 h-auto w-25">Save</button>
+          </div>
+        </section>
+    </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <!--add jquery library link here-->
+    <!--jquery script-->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
       integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
       crossorigin="anonymous"></script>
+    <!--bootstrap script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"></script>
