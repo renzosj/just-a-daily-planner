@@ -53,7 +53,7 @@ textarea {
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #39b439;
   color: white;
 }
 
@@ -65,7 +65,29 @@ textarea {
   color: white;
 }
 
+.deleteBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+hide {
+  display: none !important;
+}
+
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.background-effect {
+  background: linear-gradient(
+    45deg,
+    hsla(168, 85%, 52%, 0.5),
+    hsla(263, 88%, 45%, 0.5) 100%
+  );
+}
+
+/*.lock-emoji:hover {
+  '🔓';
+}*/
